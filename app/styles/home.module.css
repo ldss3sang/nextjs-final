@@ -1,0 +1,42 @@
+.container {
+    font-family: "Times New Roman", Times, serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    line-height: 1.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #333;
+  }
+  
+  .listItem a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .listItem a:hover {
+    color: #ff4500;
+  }

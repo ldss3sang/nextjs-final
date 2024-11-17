@@ -1,0 +1,27 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navItem {
+    font-family: Arial, sans-serif;
+    padding: 0 50px;
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navItem a:hover {
+    color: #ffa500;
+  }
